@@ -5,20 +5,51 @@ image: 08.jpg
 permalink: /about/
 ---
 
-My name is Natali Anderson. I'm an actress. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+<h1 align="center"> 📖 Biography 📖 </h1>
 
-#### Austin scenester...
-<small>2008 - 2017</small>
+☀️ **BY DAY**: *Economics and Business Management Student at University of Milano - Bicocca*
+<br>
+🌑 **BY NIGHT**: *Freelancer Developer and Bitcoiner*
+<br>
+🥳 **FOR FUN**: *Digital Artist and Musician*
+<br>
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+Howdy! My name is **Nicholas Sollazzo** and I study **Economics and Business Administration** at the University of Milano-Bicocca and I have a background as a Computer Scientist.
+<br>
+<br>
+I chose this degree course because *"when I grew up I want to be an entrepreneur"*: I knew that there were no real university courses to be an entrepreneur, but this seemed pretty close to me 😉.
+<br>
+<br>
+As a **Computer Scientist at my very core**, I'm **very curious** and very often my brain starts to wonder *why some things works that way* and if they *could be done better*. So I begin to read, watch and listen to every source I'm able to find in order to understad *the first basis from which a thing is known* and then I begin to think of what solutions could be used in order to make it works better.
+<br>
+<br>
+That is why I want to be an entrepreneur. Because **I would like to do something to change the world**. Because I see everyday things that are done fundamentally wrong, like privacy, the environmental protection, financial system, and so much more, and I think I could help to make it right. I could help to improve that.
+<br>
+That's why I want to be an entrepreneur. To build something to help. Something to create value for every single person on earth. Something to fix what, in my opinion, is wrong or could be done better in this modern age.
+<br>
+<br>
+This is who I am. <br>
+This is who I want to be. <br>
+This is who I will become. <br>
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+<h1 align="center">👩‍💻 Follow Me 👨‍💻</h1>
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
-
-#### La croix you probably...
-<small>1995 - 2000</small>
-
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+<div>
+    <ul class="social-networks list-reset">
+        {%- for link in site.social-network-links -%}
+        {%- assign curkey = link[0] -%}
+        {%- assign element = site.data.SocialNetworks[curkey] -%}
+        <li class="social-networks-item">
+        {%- if curkey == 'rss' -%}
+            <a class="social-networks-link" href="{{ '/feed.xml' | relative_url }}" title="{{ element.name }}">
+        {%- elsif curkey == 'yelp' -%}
+            <a class="social-networks-link" href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}">
+        {%- else -%}
+            <a class="social-networks-link" href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
+        {%- endif -%}
+            <i class="ion ion-logo-{{ curkey }}"></i>
+        </a>
+        </li>
+        {%- endfor -%}
+    </ul>
+</div>

@@ -128,6 +128,30 @@
   }
 }
 
+// Social Links
+.social-networks {
+  text-align: center;
+  .social-networks-item {
+    display: inline-block;
+    margin: 3px;
+  }
+  .social-networks-link {
+    display: inline-block;
+    line-height: 16px;
+    padding: 8px 10px;
+    border: 1px solid $border-color;
+    border-radius: $global-radius;
+    color: $gray-blue;
+    &:hover {
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+    i {
+      font-size: 18px;
+    }
+  }
+}
+
 // Instagram Widget
 .widget-instagram {
   .instagram-box {
