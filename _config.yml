@@ -22,6 +22,7 @@ navbar-links:
 #-------------------------------
 # Contact links
 social-network-links:
+  rss: true
 #  remail: ""
   facebook: SollazzoNicholas
   github: nsollazzo
