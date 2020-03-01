@@ -7,9 +7,9 @@
   <meta name='description'
     content='{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
   {% if page.image %}
-  <meta property="og:image" content="url({{"/img/" | prepend: site.baseurl | append : page.image}})" />
+  <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
   {% else %}
-  <meta property="og:image" content="url({{"/img/" | prepend: site.baseurl | append : site.author-avatar}})" />
+  <meta property="og:image" content="{{ site.url }}/img/{{ site.author-avatar }}" />
   {% endif %}
 
   <meta property="og:description" content="{{ page.subtitle }}" />
