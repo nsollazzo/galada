@@ -304,6 +304,16 @@
         transition: $global-transition;
       }
     }
+    .article-subtitle {
+      margin-bottom: 10px;
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: normal;
+      a {
+        color: $text;
+        transition: $global-transition;
+      }
+    }
     .article-excerpt {
       max-width: 450px;
       margin-bottom: 30px;
@@ -428,6 +438,13 @@
         color: $text;
       }
     }
+    .article-subtitle {
+      margin-bottom: 2px;
+      a {
+        font-size: 14px;
+        color: $text;
+      }
+    }
     .article-excerpt {
       margin-bottom: 0;
       font-size: 15px;
@@ -461,6 +478,10 @@
       .article-title {
         font-size: 45px;
         line-height: 45px;
+      }
+      .article-subtitle {
+        font-size: 30px;
+        line-height: 30px;
       }
       .article-excerpt {
         margin-bottom: 50px;

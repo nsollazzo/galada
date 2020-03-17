@@ -20,6 +20,8 @@ layout: default
 						</div>
 						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
 						</h2>
+						<h3 class="article-subtitle"><a href="{{ post.url | prepend: site.baseurl }}">{{post.subtitle}}</a>
+						</h3>
 						<p class="article-excerpt">
 							{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}
 						</p>

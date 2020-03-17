@@ -1,13 +1,13 @@
 ---
 layout: post
 title: SARS-CoV-2 e Tecnologia
-subtitle: Come l'Ialia sta reagendo al virus
+subtitle: Come l'Italia sta reagendo al virus
 image: post_covers/SARS-CoV-2_e_Tecnologia/1.png
 homepage_image: post_covers/SARS-CoV-2_e_Tecnologia/2.png
 tags: [COVID-19]
 ---
 
-molto è cambiato dall'[ultima volta](https://sollazzo.one/covid19-e-italia/) che abbiamo trattato questo argomento: prima il virus [è stato dichiarato pandemia dalla **World Health Organization**](https://twitter.com/WHO/status/1237777021742338049) 
+Molto è cambiato dall'[ultima volta](https://sollazzo.one/covid19-e-italia/) che abbiamo trattato questo argomento: prima il virus [è stato dichiarato pandemia dalla **World Health Organization**](https://twitter.com/WHO/status/1237777021742338049) 
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">🚨 BREAKING 🚨<br><br>&quot;We have therefore made the assessment that <a href="https://twitter.com/hashtag/COVID19?src=hash&amp;ref_src=twsrc%5Etfw">#COVID19</a> can be characterized as a pandemic&quot;-<a href="https://twitter.com/DrTedros?ref_src=twsrc%5Etfw">@DrTedros</a> <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> <a href="https://t.co/JqdsM2051A">pic.twitter.com/JqdsM2051A</a></p>&mdash; World Health Organization (WHO) (@WHO) <a href="https://twitter.com/WHO/status/1237777021742338049?ref_src=twsrc%5Etfw">March 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
