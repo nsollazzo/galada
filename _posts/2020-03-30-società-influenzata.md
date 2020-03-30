@@ -2,8 +2,8 @@
 layout: post
 title: Società Influenzata
 subtitle: Il mondo dopo il COVID-19
-image: post_covers/societa-influenzata/1.png
-homepage_image: post_covers/societa-influenzata/2.png
+image: post_covers/società-Influenzata/1.png
+homepage_image: post_covers/società-Influenzata/2.png
 tags: [COVID-19]
 ---
 
