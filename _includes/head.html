@@ -10,10 +10,12 @@
   <meta property="og:description" content="{% if page.subtitle %}{{ page.content | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
   {% if page.image %}
-  <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}" />
+  <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
   {% else %}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ site.url }}/img/{{ site.author-avatar }}" />
   <meta property="og:image" content="{{ site.url }}/img/{{ site.author-avatar }}" />
   {% endif %}
 
