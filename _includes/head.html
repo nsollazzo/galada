@@ -5,7 +5,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name='description'
-    content='{% if page.content %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+    content='{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
   {% if page.image %}
   <meta property="og:image" content="{{ site.url }}/img/{{ page.image }}" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -14,7 +14,7 @@
   <meta property="og:image" content="{{ site.url }}/img/{{ site.author-avatar }}" />
   {% endif %}
 
-  <meta property="og:description" content="{{ page.content }}" />
+  <meta property="og:description" content="{{ page.subtitle }}" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
     href="{{ "/feed.xml" | relative_url }}">
